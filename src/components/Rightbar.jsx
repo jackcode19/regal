@@ -42,7 +42,7 @@ function Rightbar() {
 
           {/* Buy Now */}
           <div className="text-center space-y-2 p-2 bg-[#f0e6d3]  w-full h-1/2">
-            <a href='' className="font-bold text-3xl">BUY NOW</a>
+            <a href='' className="font-bold text-3xl font-fontHead">BUY NOW</a>
           </div>
           
           <div className="flex flex-col items-center justify-center space-y-7 p-2  w-full h-full">
@@ -86,7 +86,7 @@ function Rightbar() {
       
       {isVisible && (
         <div
-          className={`fixed bottom-0 left-0 right-0 h-[55px]  flex md:hidden justify-around items-center bg-secondary text-primary z-[999]
+          className={`fixed bottom-0 left-0 right-0 h-[60px] flex md:hidden justify-around items-center bg-secondary shadowkeun text-primary z-[999]
             transform transition-all duration-300 ease-in-out ${
               isMounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
             }`}
@@ -115,7 +115,7 @@ function Rightbar() {
             
             <a href="">
               <div className="flex flex-col items-center justify-center space-y-2 p-3 bg-[#f0e6d3] border-[4px] border-primary -translate-y-6">
-                <button className="font-bold text-2xl">BUY NOW</button>
+                <button className="font-bold font-fontHead text-2xl">BUY NOW</button>
              </div>
             </a>
 
